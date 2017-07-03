@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bean Tea Recipes</title>
+    <link type="text/css" rel="stylesheet" href="mainstyle.css"/>
+    <link type="text/html" href="mainjs.js"/>
+    <link rel="icon" type="image/gif" href="image/f23156efa56cac0f0efe484029fefa67.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Josefin+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="bigleft">
+    <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+
+    <h1 class="title">Soy Milk 豆奶 / Bean Tea 豆浆</h1>
+
+
+    <p class="white">"Soy milk" (豆奶）／ "Bean tea" (豆茶）is a traditional Chinese drink made with different beans, nuts and herbs. The most
+        popular bean tea
+        is
+        "豆浆" soy milk, which is also popular in America. Soy milk is a plant based drink produced by soaking dried
+        soybeans
+        and grinding them in water. Most of the bean teas are made in a similar way.</p>
+
+    <!--original code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js-->
+    <!--original code from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_toggle-->
+    <!--div.container>div*3>a[href=#recipe$]>{RECIPE $}-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("div.container").click(function () {
+                $("div.nav").slideToggle("slow");
+            });
+        });
+    </script>
+
+
+    <div class="nav">
+        <nav>
+            <ul>
+                <li class="link"><a href="#r1"> Traditional Soy Milk/Tea </a></li>
+                <li class="link"><a href="#r2"> Red Bean Soy Milk </a></li>
+                <li class="link"><a href="#r3"> Red Dates & Green Bean Soy Milk </a></li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="bigdash">
+    <div class="bigup">
+        <div class="img">
+            <img class="imgA" src="image/yellowbean3-01.png"/>
+            <img class="imgB" src="image/blackoutline3mouse-01.png"/>
+        </div>
+
+        <div class="bigtable">
+            <h1 id="r1">Traditional Soy Milk/Tea</h1>
+            <table>
+                <tr>
+                    <td>Prep time<br>60 min</td>
+                    <td>Cook time<br>30 min</td>
+                    <td>Total time<br>90 min</td>
+                </tr>
+
+            </table>
+            <br>
+
+            <h2>Ingredients</h2>
+
+            <ul>
+                <li>½ cup soy bean (click image to view ingredients)</li>
+                <li>5 cup water</li>
+                <li>1 tablespoon chai tea (optional)</li>
+                <li>4-5 tablespoon brown sugar</li>
+                <li>Soy milk machine <a
+                        href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=soy+milk+machine">(which
+                    works similarly to a combination between a home blender
+                    and an automatic coffee maker. Most soy milk makers can also be programmed to make almond milk, rice
+                    milk and other vegetable-based steeped beverages.)</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="instrc">
+        <h2>Instructions</h2>
+        <ol>
+            <li>Rinse soy beans
+            </li>
+            <li>Boil water</li>
+            <li>Soak the beans in boiled water for 60 min (it tastes better this way)</li>
+            <li>Make some chai tea with boiled water (if you prefer a soy tea instead soy milk)</li>
+            <li>Put all beans and water in soy milk maker. (According to the manual
+                of my
+                soy milk maker, it's ok to both either dry beans or wet beans that have been soaked in water for hours)
+                Let the machine do it's work for 30 min.
+            </li>
+            <li>Add sugar into the soy milk/tea</li>
+
+        </ol>
+        <p></p>
+    </div>
+</div>
+
+<br>
+
+<div class="bigdash">
+    <div class="bigup">
+        <div class="img">
+            <img class="imgA" src="image/redbean3-01.png"/>
+            <img class="imgB" src="image/blackoutline3mouse-01.png"/>
+        </div>
+
+        <div class="bigtable">
+            <h1 id="r2">Red Bean Soy Milk</h1>
+            <table>
+                <tr>
+                    <td>Prep time<br>60 min</td>
+                    <td>Cook time<br>30 min</td>
+                    <td>Total time<br>90 min</td>
+                </tr>
+
+            </table>
+            <br>
+
+            <h2>Ingredients</h2>
+
+            <ul>
+                <li>¼ cup soy bean (click image to view ingredients)</li>
+                <li>¼ cup red bean</li>
+                <li>5 cup water</li>
+                <li>4-5 tablespoon brown sugar</li>
+                <li>Soy milk machine <a
+                        href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=soy+milk+machine">(which
+                    works similarly to a combination between a home blender
+                    and an automatic coffee maker. Most soy milk makers can also be programmed to make almond milk, rice
+                    milk and other vegetable-based steeped beverages.)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="instrc">
+        <h2>Instructions</h2>
+        <ol>
+            <li>Rinse soy beans and red beans</li>
+            <li>Boil water</li>
+            <li>Soak the beans in boiled water for 60 min (it tastes better this way)</li>
+            <li>Make some chai tea with boiled water (if you prefer a soy tea instead soy milk)</li>
+            <li>Put all beans and water in soy milk maker. (According to the manual
+                of my
+                soy milk maker, it's ok to both either dry beans or wet beans that have been soaked in water for hours)
+                Let the machine do it's work for 30 min.
+            </li>
+            <li>Add sugar into the soy milk.</li>
+        </ol>
+        <p></p>
+    </div>
+</div>
+
+<br>
+<div class="bigdash">
+    <div class="bigup">
+        <div class="img">
+            <img class="imgA" src="image/greenbean3-01.png"/>
+            <img class="imgB" src="image/blackoutline3mouse-01.png"/>
+        </div>
+
+        <div class="bigtable">
+            <h1 id="r3">Red Dates & Green Bean Soy Milk</h1>
+            <table>
+                <tr>
+                    <td>Prep time<br>60 min</td>
+                    <td>Cook time<br>30 min</td>
+                    <td>Total time<br>90 min</td>
+                </tr>
+
+            </table>
+            <br>
+
+            <h2>Ingredients</h2>
+
+            <ul>
+                <li>¼ cup green soy bean (click image to view ingredients)</li>
+                <li>¼ cup red dates</li>
+                <li>5 cup water</li>
+                <li>4-5 tablespoon brown sugar</li>
+                <li>Soy milk machine <a
+                        href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=soy+milk+machine">(which
+                    works similarly to a combination between a home blender
+                    and an automatic coffee maker. Most soy milk makers can also be programmed to make almond milk, rice
+                    milk and other vegetable-based steeped beverages.)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="instrc">
+        <h2>Instructions</h2>
+        <ol>
+            <li>Rinse soy beans and red beans</li>
+            <li>Boil water</li>
+            <li>Soak the beans in boiled water for 60 min (it tastes better this way)</li>
+            <li>Make some chai tea with boiled water (if you prefer a soy tea instead soy milk)</li>
+            <li>Put all beans and water in soy milk maker. (According to the manual
+                of my
+                soy milk maker, it's ok to both either dry beans or wet beans that have been soaked in water for hours)
+                Let the machine do it's work for 30 min.
+            </li>
+            <li>Add sugar into the soy milk.</li>
+        </ol>
+        <p></p>
+    </div>
+</div>
+
+
+</body>
+</html>
